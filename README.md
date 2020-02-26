@@ -2,7 +2,7 @@
 Update Ionic / Angular / TypeScript / more...
 
 
-# IONIC
+# IONIC 4 to 5
 
 **CLI**
 ```
@@ -102,6 +102,23 @@ Step #6. Change the text in <ion-list-header> to wrapped text by <ion-label> in 
 **Add a New Core Ionic 5 Feature**
 
 * **https://www.djamware.com/post/5e409668d598ef51b8a6aaa7/upgrade-the-existing-ionic-4-app-to-ionic-5-and-add-new-feature**
+
+# ERROR IONIC / ANGULAR UPDATE
+
+**An unhandled exception occurred: Job name “..getProjectMetadata” does not exist**
+* **https://stackoverflow.com/questions/59447679/an-unhandled-exception-occurred-job-name-getprojectmetadata-does-not-exist**
+
+```
+For IONIC 5 the following downgrades worked for me.
+
+npm i @angular-devkit/build-angular@0.803.25
+
+npm i @angular-devkit/build-angular@0.803.24
+
+Other versions has a high vulnerability warning and risks
+
+```
+
 
 # TYPESCRIPT
 
