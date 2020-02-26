@@ -129,8 +129,13 @@ npm install -g typescript
 ```
 # Angular
 
+**Actualizar Angular CLI para Angular**
+
+* **https://medium.com/@janpierrsanchez/actualizar-angular-cli-para-angular-2aaf8928ce70**
 ```
-*
+
+npm install -g @angular/cli@latest
+
 ```
 
 #Other
