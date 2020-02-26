@@ -141,6 +141,8 @@ npm install -g @angular/cli@latest
 **Errores Angular Update**
 
 ```
+PS D:\Geo\01_Express\web-app\app-web-cainar> ng serve --open
+
 ng : File C:\Users\KUBXY\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see 
 about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
 At line:1 char:1
