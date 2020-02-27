@@ -151,9 +151,16 @@ At line:1 char:1
     + CategoryInfo          : SecurityError: (:) [], PSSecurityException  
     + FullyQualifiedErrorId : UnauthorizedAccess
     
-    
+
 ng serve --open
 Error de Visual Studio Code // Correr servidor en otra terminal.
 
+Solution:
+
+I opened VS Code as Administrator and ran this command in the terminal:
+
+Set-ExecutionPolicy Unrestricted
+
+It allowed me to run the scripts without an errors.
 
 ```
