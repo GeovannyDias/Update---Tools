@@ -119,6 +119,32 @@ Other versions has a high vulnerability warning and risks
 
 ```
 
+**Ionic 4: Ionic cordova resources fails with node error**
+* **https://forum.ionicframework.com/t/ionic-4-ionic-cordova-resources-fails-with-node-error/176944**
+
+```
+ionic cordova resources
+
+> cordova-res.cmd
+[cordova-res]
+[cordova-res] Something went wrong installing the "sharp" module
+[cordova-res]
+[cordova-res] Module did not self-register: '\\?\C:\Users\Geo\AppData\Roaming\npm\node_modules\cordova-res\node_modules\sharp\build\Release\sharp.node'.
+[cordova-res]
+[cordova-res] - Remove the "node_modules/sharp" directory, run "npm install" and look for errors
+[cordova-res] - Consult the installation documentation at https://sharp.pixelplumbing.com/en/stable/install/
+[cordova-res] - Search for this error at https://github.com/lovell/sharp/issues
+[cordova-res]
+[ERROR] An error occurred while running subprocess cordova-res.
+
+Solution:
+
+npm remove cordova-res
+npm install cordova-res
+
+```
+
+
 
 # TYPESCRIPT
 
