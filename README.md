@@ -144,6 +144,55 @@ npm install cordova-res
 
 ```
 
+**Other Error Ionic
+**Ionic 4: Execution failed for task ‘:app:processDebugResources’**
+
+* **https://forum.ionicframework.com/t/ionic-4-execution-failed-for-task-processdebugresources/162937**
+* **https://stackoverflow.com/questions/49162538/running-cordova-build-android-unable-to-find-attribute-androidfontvariation/57012475#57012475**
+
+```
+
+cordova plugin add cordova-android-support-gradle-release --fetch
+
+I found the solution on Ionic Forum, which was the only solution that worked for me:
+
+Run:
+
+ionic cordova platform rm android
+
+Run:
+
+ionic cordova platform add android@8.0.0
+
+Run:
+
+ionic cordova plugin add cordova-plugin-androidx
+
+Run:
+
+ionic cordova plugin add cordova-plugin-androidx-adapter
+
+Make sure your gradle.properties has:
+
+cdvMinSdkVersion=19
+
+Make sure your build.gradle has:
+
+project.ext { defaultBuildToolsVersion="28.0.3" //String 
+
+defaultMinSdkVersion=19 //Integer - Minimum requirement is Android 4.4 
+
+defaultTargetSdkVersion=28 //Integer - We ALWAYS target the latest by default 
+
+defaultCompileSdkVersion=28 //Integer - We ALWAYS compile with the latest by default }
+Make sure your config.xml has:
+
+<preference name="android-minSdkVersion" value="19" />
+from: https://forum.ionicframework.com/t/firebase-app-unable-to-compile-on-android-with-aapt-error/166564/7
+
+which is also handled in the stackoverflow answer: https://stackoverflow.com/a/56656680/839691
+
+```
 
 
 # TYPESCRIPT
