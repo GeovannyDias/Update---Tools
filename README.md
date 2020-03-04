@@ -239,3 +239,21 @@ Set-ExecutionPolicy Unrestricted
 It allowed me to run the scripts without an errors.
 
 ```
+
+# ¿Cómo convertir una app de IONIC en una PWA?
+
+```
+Verificar que esta instalado en service-worker (En aplications del navegador)
+
+copiar codigo de documentacion en el index.html antes de finalizar el la etiqueta body
+
+
+ionic build // crea nuevamente la carpeta www/
+npm install http-serve // correr modo de produccion app ionic
+cd www/
+http-serve
+
+
+
+```
+
