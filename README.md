@@ -242,6 +242,7 @@ It allowed me to run the scripts without an errors.
 
 # ¿Cómo convertir una app de IONIC en una PWA?
 * **https://platzi.com/blog/app-ionic-en-pwa/**
+* **https://desarrolloweb.com/articulos/primer-progressive-web-app-ionic.html**
 
 ```
 Verificar que esta instalado en service-worker (En aplications del navegador)
