@@ -201,11 +201,23 @@ An unhandled exception occurred: [BABEL] D:\Developer_Studio\Proyectos\Jemadenta
 See "C:\Users\Geo\AppData\Local\Temp\ng-GQfN8t\angular-errors.log" for further details.
 [ERROR] An error occurred while running subprocess ng.
 
-Solve:
+
+
+Intentar:
+npm i @babel/compat-data@7.8.0
+
+Intentar:
 npm i @angular-devkit/build-angular@0.803.23
 
+Intentar:
+D8: Program type already present: android.support.v4.os.ResultReceiver$MyResultReceiver
 
-// Consultar su funcion para reparar problemas
+ionic cordova plugin add cordova-plugin-androidx
+ionic cordova plugin add cordova-plugin-androidx-adapter
+
+https://stackoverflow.com/questions/56688570/program-type-already-present-android-support-v4-os-resultreceivermyresultrecei
+
+// Consultar su funcion para reparar problemas:
 
 ionic repair
 [INFO] ionic repair will do the following:
