@@ -194,6 +194,30 @@ which is also handled in the stackoverflow answer: https://stackoverflow.com/a/5
 
 ```
 
+**An unhandled exception occurred: [BABEL]**
+
+```
+An unhandled exception occurred: [BABEL] D:\Developer_Studio\Proyectos\Jemadental\jemadentalweb-movil\JemaDentalM\www\1-es2015.js: Could not find plugin "proposal-numeric-separator". Ensure there is an entry in ./available-plugins.js for it. (While processing: "D:\\Developer_Studio\\Proyectos\\Jemadental\\jemadentalweb-movil\\JemaDentalM\\node_modules\\@babel\\preset-env\\lib\\index.js")
+See "C:\Users\Geo\AppData\Local\Temp\ng-GQfN8t\angular-errors.log" for further details.
+[ERROR] An error occurred while running subprocess ng.
+
+Solve:
+npm i @angular-devkit/build-angular@0.803.23
+
+
+// Consultar su funcion para reparar problemas
+
+ionic repair
+[INFO] ionic repair will do the following:
+
+       - Remove node_modules/ and package-lock.json
+       - Run npm i to restore dependencies
+       - Remove platforms/ and plugins/
+       - Run cordova prepare to restore platforms and plugins
+
+
+```
+
 
 # TYPESCRIPT
 
