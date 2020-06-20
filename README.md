@@ -230,6 +230,25 @@ ionic repair
 
 ```
 
+**Execution failed for task ':app:mergeReleaseResources'.**
+* **https://forum.ionicframework.com/t/solved-execution-failed-for-task-mergereleaseresources-when-doing-release-prod-build/168994**
+* **https://stackoverflow.com/questions/52712063/build-failing-during-merge-resources-with-android-gradle-plugin-3-3-0/54615423#54615423**
+
+```
+> java.util.concurrent.ExecutionException: com.android.builder.internal.aapt.v2.Aapt2InternalException: AAPT2 aapt2-3.3.0-5013011-windows Daemon #0: Unexpected error during compile 'D:\Developer_Studio\Proyectos\Restaurante\tesis-3-app-restaurante\restaurante-movil\platforms\android\app\src\main\res\drawable-land-xxxhdpi\screen.png', attempting to stop daemon.
+  This should not happen under normal circumstances, please file an issue if it does.
+```
+
+```
+Este error da por el peso del icono o spash screen de la app, sobre pasa las 2MB
+
+Solve:
+
+Bajar el peso de la imagen PNG menor a 2 MB
+
+```
+
+
 
 # TYPESCRIPT
 
