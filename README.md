@@ -260,6 +260,22 @@ Intalar Firebase:
 
 Siempre eliminar carpeta node_module y ejecutar npm i
 
+Otra solución:
+
+npm i @angular-devkit/build-angular@0.803.23
+
+Eliminara la plataforma
+ionic cordova platform rm android
+
+Instalar:
+ionic cordova plugin add cordova-plugin-androidx-adapter
+ionic cordova plugin add cordova-plugin-androidx
+
+Eliminara la plataforma
+ionic cordova platform add android
+
+ionic cordova build android 
+
 ```
 
 
