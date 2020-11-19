@@ -248,6 +248,19 @@ Bajar el peso de la imagen PNG menor a 2 MB
 
 ```
 
+# ERROR IONIC 5
+```
+Error 288 FCM //  Desinstalar FCM y ver versione
+
+npm i @angular-devkit/build-angular@0.1000.0
+
+Intalar Firebase:
+"@angular/fire": "^5.4.2",
+"firebase": "^6.6.2",
+
+Siempre eliminar carpeta node_module y ejecutar npm i
+
+```
 
 
 # TYPESCRIPT
