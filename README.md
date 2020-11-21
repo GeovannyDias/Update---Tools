@@ -276,6 +276,14 @@ ionic cordova platform add android
 
 ionic cordova build android 
 
+
+ERROR FCM:
+
+events.js:288 throw er; // Unhandled 'error' event
+
+La nueva versión "^7.6.0" de FCM da conflictos con ionic 5, la solucion es bajar la version de FCM "^6.4.3"
+ionic cordova plugin add cordova-plugin-fcm-with-dependecy-updated@6
+
 ```
 
 
