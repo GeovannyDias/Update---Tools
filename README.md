@@ -326,6 +326,25 @@ ng update @angular/cli@^10 @angular/core@^10
 **Angular CLI**
 * **https://www.npmjs.com/package/@angular/cli**
 
+```
+Generating Components, Directives, Pipes and Services
+You can use the ng generate (or just ng g) command to generate Angular components:
+
+ng generate component my-new-component
+ng g component my-new-component # using the alias
+
+# components support relative path generation
+# if in the directory src/app/feature/ and you run
+ng g component new-cmp
+# your component will be generated in src/app/feature/new-cmp
+# but if you were to run
+ng g component ./newer-cmp
+# your component will be generated in src/app/newer-cmp
+# if in the directory src/app you can also run
+ng g component feature/new-cmp
+# and your component will be generated in src/app/feature/new-cmp
+
+```
 **Errores Angular Update**
 
 ```
