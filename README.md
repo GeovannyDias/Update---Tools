@@ -314,8 +314,13 @@ npm cache verify
 npm cache clean  => (--force) => (for older npm versions) After updating both the global and local package, clear the cache to avoid errors.
 
 Other:
-ng update @angular/cli@^10
 npm install -g @angular/cli@^10
+
+Upate Project:
+
+ng update @angular/cli @angular/core
+→ OR
+ng update @angular/cli@^10 @angular/core@^10
 
 ```
 **Angular CLI**
