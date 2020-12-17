@@ -389,3 +389,9 @@ http-serve
 
 ```
 
+# Remote Devices
+```
+Url para comprobar dispositivos:
+
+chrome://inspect/#devices
+```
