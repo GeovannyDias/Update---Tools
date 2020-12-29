@@ -42,6 +42,12 @@ Step #6. Run iOS and Android to device or emulator.
 ionic cordova run ios
 ionic cordova run android
 
+
+Actualizar @angular-devkit/build-angular
+
+npm audit fix
+npm audit fix --force
+
 ```
 **Upgrade to Ionic 5**
 
