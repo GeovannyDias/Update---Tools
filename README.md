@@ -296,6 +296,19 @@ ionic cordova plugin remove cordova-plugin-fcm-with-dependecy-updated
 
 ```
 
+# GRADLE - PROBLEMA DE VERSION - DESCONTINUADO
+
+* **https://medium.com/@chenlitchian/you-will-need-to-install-cordova-android-support-gradle-release-if-failed-to-build-due-to-version-e076c9a4ddf8**
+
+```
+You will need to install cordova-android-support-gradle-release if failed to build due to version issue. See here.
+
+cordova plugin cordova-android-support-gradle-release
+
+cordova-android-support-gradle-release is a plugin to align various versions of the Android Support libraries specified by other plugins to a specific version.
+
+```
+
 
 # TYPESCRIPT
 
