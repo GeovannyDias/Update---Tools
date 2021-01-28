@@ -423,6 +423,6 @@ chrome://inspect/#devices
 
 # NPM
 ```
-Run npm install -g npm to update!
+npm install -g npm to update!
 ```
 
