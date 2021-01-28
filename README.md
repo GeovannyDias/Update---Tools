@@ -420,3 +420,9 @@ Url para comprobar dispositivos:
 
 chrome://inspect/#devices
 ```
+
+# NPM
+```
+Run npm install -g npm to update!
+```
+
